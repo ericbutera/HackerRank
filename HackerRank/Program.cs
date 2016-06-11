@@ -21,7 +21,8 @@ namespace HackerRank
 			//SimpleArraySum.Run();
 			//VeryBigSum.Run();
 			//DiagonalDifference.Run();
-			PlusMinus.Run();
+			//PlusMinus.Run();
+			//Staircase.Run();
 
 			// wait for keypress to exit
 			Console.ReadKey();
