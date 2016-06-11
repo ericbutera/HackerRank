@@ -35,10 +35,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\Arrays\Arrays.cs" />
+    <Compile Include="DataStructures\Arrays\TwoDimensioalArray.cs" />
+    <Compile Include="Tutorials\MonthOfCode\Day02.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
     <Folder Include="DataStructures\Arrays\" />
+    <Folder Include="Tutorials\" />
+    <Folder Include="Tutorials\MonthOfCode\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
