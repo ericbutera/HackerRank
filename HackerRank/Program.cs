@@ -23,6 +23,7 @@ namespace HackerRank
 			//DiagonalDifference.Run();
 			//PlusMinus.Run();
 			//Staircase.Run();
+			TimeConversion.Run();
 
 			// wait for keypress to exit
 			Console.ReadKey();

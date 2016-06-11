@@ -44,6 +44,7 @@
     <Compile Include="Algorithms\DiagonalDifference.cs" />
     <Compile Include="Algorithms\PlusMinus.cs" />
     <Compile Include="Algorithms\Staircase.cs" />
+    <Compile Include="Algorithms\TimeConversion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
