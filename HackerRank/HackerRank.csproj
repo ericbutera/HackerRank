@@ -37,12 +37,23 @@
     <Compile Include="DataStructures\Arrays\Arrays.cs" />
     <Compile Include="DataStructures\Arrays\TwoDimensioalArray.cs" />
     <Compile Include="Tutorials\MonthOfCode\Day02.cs" />
+    <Compile Include="DataStructures\LinkedLists\PrintElements.cs" />
+    <Compile Include="Algorithms\SolveMeFirst.cs" />
+    <Compile Include="Algorithms\SimpleArraySum.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
     <Folder Include="DataStructures\Arrays\" />
     <Folder Include="Tutorials\" />
     <Folder Include="Tutorials\MonthOfCode\" />
+    <Folder Include="DataStructures\LinkedLists\" />
+    <Folder Include="Algorithms\" />
+    <Folder Include="DataStructures\Stacks\" />
+    <Folder Include="DataStructures\Queues\" />
+    <Folder Include="DataStructures\Heap\" />
+    <Folder Include="DataStructures\DisjointSet\" />
+    <Folder Include="DataStructures\Trie\" />
+    <Folder Include="DataStructures\Advanced\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
