@@ -40,6 +40,8 @@
     <Compile Include="DataStructures\LinkedLists\PrintElements.cs" />
     <Compile Include="Algorithms\SolveMeFirst.cs" />
     <Compile Include="Algorithms\SimpleArraySum.cs" />
+    <Compile Include="Algorithms\VeryBigSum.cs" />
+    <Compile Include="Algorithms\DiagonalDifference.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
