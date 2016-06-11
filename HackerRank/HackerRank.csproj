@@ -42,6 +42,7 @@
     <Compile Include="Algorithms\SimpleArraySum.cs" />
     <Compile Include="Algorithms\VeryBigSum.cs" />
     <Compile Include="Algorithms\DiagonalDifference.cs" />
+    <Compile Include="Algorithms\PlusMinus.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

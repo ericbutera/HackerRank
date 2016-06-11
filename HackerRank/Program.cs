@@ -20,7 +20,8 @@ namespace HackerRank
 			//SolveMeFirst.Run();
 			//SimpleArraySum.Run();
 			//VeryBigSum.Run();
-			DiagonalDifference.Run();
+			//DiagonalDifference.Run();
+			PlusMinus.Run();
 
 			// wait for keypress to exit
 			Console.ReadKey();
