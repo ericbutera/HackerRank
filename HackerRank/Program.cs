@@ -28,8 +28,8 @@ namespace HackerRank
 			//TimeConversion.Run();
 			//AngryProfessor.Run();
 			//FindDigits.Run();
-			SortIntro.Run();
-
+			//SortIntro.Run();
+			SortInsertion01.Run();
 
 			// wait for keypress to exit
 			Console.ReadKey();

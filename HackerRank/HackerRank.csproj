@@ -48,7 +48,8 @@
     <Compile Include="Algorithms\AngryProfessor.cs" />
     <Compile Include="Tutorials\MonthOfCode\Day03.cs" />
     <Compile Include="Algorithms\FindDigits.cs" />
-    <Compile Include="Algorithms\SortIntro.cs" />
+    <Compile Include="Algorithms\Sort\SortIntro.cs" />
+    <Compile Include="Algorithms\Sort\SortInsertion01.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
@@ -63,6 +64,7 @@
     <Folder Include="DataStructures\DisjointSet\" />
     <Folder Include="DataStructures\Trie\" />
     <Folder Include="DataStructures\Advanced\" />
+    <Folder Include="Algorithms\Sort\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
