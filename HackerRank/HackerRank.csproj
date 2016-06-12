@@ -45,6 +45,8 @@
     <Compile Include="Algorithms\PlusMinus.cs" />
     <Compile Include="Algorithms\Staircase.cs" />
     <Compile Include="Algorithms\TimeConversion.cs" />
+    <Compile Include="Algorithms\AngryProfessor.cs" />
+    <Compile Include="Tutorials\MonthOfCode\Day03.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
