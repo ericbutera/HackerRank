@@ -47,6 +47,8 @@
     <Compile Include="Algorithms\TimeConversion.cs" />
     <Compile Include="Algorithms\AngryProfessor.cs" />
     <Compile Include="Tutorials\MonthOfCode\Day03.cs" />
+    <Compile Include="Algorithms\FindDigits.cs" />
+    <Compile Include="Algorithms\SortIntro.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

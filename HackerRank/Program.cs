@@ -26,7 +26,10 @@ namespace HackerRank
 			//PlusMinus.Run();
 			//Staircase.Run();
 			//TimeConversion.Run();
-			AngryProfessor.Run();
+			//AngryProfessor.Run();
+			//FindDigits.Run();
+			SortIntro.Run();
+
 
 			// wait for keypress to exit
 			Console.ReadKey();
