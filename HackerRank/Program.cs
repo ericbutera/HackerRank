@@ -29,7 +29,10 @@ namespace HackerRank
 			//AngryProfessor.Run();
 			//FindDigits.Run();
 			//SortIntro.Run();
-			SortInsertion01.Run();
+			//SortInsertion01.Run();
+
+			// TEST DAY!
+
 
 			// wait for keypress to exit
 			Console.ReadKey();

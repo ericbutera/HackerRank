@@ -39,6 +39,7 @@ namespace HackerRank
 			//   - if so, copy (size - 2) to (size - 1)
 			//   - else, set to temp
 			// repeat
+			// im really not happy with how this turned out.
 			var temp = numbers[numbers.Length - 1];
 
 			for (var x = numbers.Length - 2; x >= 0; x--)
@@ -46,16 +47,12 @@ namespace HackerRank
 				//Console.WriteLine("Testing cell " + x + " value("+ numbers[x] +") > "+ temp);
 				if (numbers[x] > temp)
 				{
+					numbers[x + 1] = numbers[x];
 					if (x == 0)
 					{
 						//Console.WriteLine("last if move, setting");
-						numbers[x + 1] = numbers[x];
 						Console.WriteLine(string.Join(" ", Array.ConvertAll(numbers, Convert.ToString)));
 						numbers[x] = temp;
-					}
-					else 
-					{
-						numbers[x + 1] = numbers[x];
 					}
 				}
 				else 
