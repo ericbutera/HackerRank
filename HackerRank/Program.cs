@@ -6,9 +6,12 @@ namespace HackerRank
 	{
 		public static void Main(string[] args)
 		{
+			string output;
+
 			// 30 DAYS OF CODE
 			// Day02.Run();
 			//Day03.Run();
+			output = Day04.Run();
 
 			// ARRAYS
 			// Arrays.Run();
@@ -31,10 +34,7 @@ namespace HackerRank
 			//SortIntro.Run();
 			//SortInsertion01.Run();
 
-			// TEST DAY!
-
-
-			// wait for keypress to exit
+			Console.WriteLine(output);
 			Console.ReadKey();
 		}
 	}

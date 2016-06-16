@@ -50,6 +50,7 @@
     <Compile Include="Algorithms\FindDigits.cs" />
     <Compile Include="Algorithms\Sort\SortIntro.cs" />
     <Compile Include="Algorithms\Sort\SortInsertion01.cs" />
+    <Compile Include="Tutorials\MonthOfCode\Day04.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

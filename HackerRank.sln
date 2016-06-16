@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{E9C2D527-2C73-48A0-B326-CD5CCCEB7C34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{BC912F11-0A3D-4515-8A47-D5286C608010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{E9C2D527-2C73-48A0-B326-CD5CCCEB7C34}.Debug|x86.Build.0 = Debug|x86
 		{E9C2D527-2C73-48A0-B326-CD5CCCEB7C34}.Release|x86.ActiveCfg = Release|x86
 		{E9C2D527-2C73-48A0-B326-CD5CCCEB7C34}.Release|x86.Build.0 = Release|x86
+		{BC912F11-0A3D-4515-8A47-D5286C608010}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC912F11-0A3D-4515-8A47-D5286C608010}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC912F11-0A3D-4515-8A47-D5286C608010}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC912F11-0A3D-4515-8A47-D5286C608010}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
