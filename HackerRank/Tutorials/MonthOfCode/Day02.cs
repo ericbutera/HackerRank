@@ -5,30 +5,22 @@ namespace HackerRank
 	{
 		public static void Run()
 		{
-			int i = 4;
-			double d = 4.0;
-			string s = "HackerRank ";
+			double mealCost = 0;
+			int tipPercent = 0;
+			int taxPercent = 0;
+			double totalCost = 0;
 
-			// Declare second integer, double, and String variables.
-			int i2;
-			double d2;
-			string s2;
+			mealCost = Double.Parse(Console.ReadLine());
+			tipPercent = Int32.Parse(Console.ReadLine());
+			taxPercent = Int32.Parse(Console.ReadLine());
 
-			// im not bothering with error handling on this. good luck.
-			// Read and save an integer, double, and String to your variables.
-			i2 = Int32.Parse(Console.ReadLine());
-			d2 = Double.Parse(Console.ReadLine());
-			s2 = Console.ReadLine();
+			double tip = mealCost * ((double)tipPercent / (double)100);
+			double tax = mealCost * ((double)taxPercent / (double)100);
+
+			totalCost = mealCost + tip + tax;
 
 			// Print the sum of both integer variables on a new line.
-			Console.WriteLine(i + i2);
-
-			// Print the sum of the double variables on a new line.
-			Console.WriteLine((d + d2).ToString("0.0"));
-
-			// Concatenate and print the String variables on a new line
-			// The 's' variable above should be printed first.
-			Console.WriteLine(s + s2);
+			Console.WriteLine("The total meal cost is " + totalCost.ToString("0") + " dollars.");
 		}
 	}
 }

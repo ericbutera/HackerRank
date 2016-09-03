@@ -3,24 +3,53 @@ namespace HackerRank
 {
 	public class Day03
 	{
-		public static void Run()
+		public static string Run()
 		{
-			double mealCost = 0;
-			int tipPercent = 0;
-			int taxPercent = 0;
-			double totalCost = 0;
+			int n = ParseNumber(Console.ReadLine());
+			if (n > 0)
+			{
+				return n % 2 == 0 ? Even(n) : Odd(n);
+			}
 
-			mealCost = Double.Parse(Console.ReadLine());
-			tipPercent = Int32.Parse(Console.ReadLine());
-			taxPercent = Int32.Parse(Console.ReadLine());
+			return "Please provide a valid number between 1 and 100";
+		}
 
-			double tip = mealCost * ((double)tipPercent / (double)100);
-			double tax = mealCost * ((double)taxPercent / (double)100);
+		/// <summary>
+		/// Returns a valid number between 1 and 100, else -1
+		/// </summary>
+		/// <returns>The number.</returns>
+		/// <param name="val">Value.</param>
+		public static int ParseNumber(string val)
+		{
+			int n;
+			if (Int32.TryParse(val, out n) &&
+				n > 0 &&
+				n < 101)
+			{
+				return n;
+			}
+			return -1;
+		}
 
-			totalCost = mealCost + tip + tax;
+		/// <summary>
+		/// Even integer logic
+		/// </summary>
+		/// <param name="n">N.</param>
+		public static string Even(int n)
+		{
+			if (n >= 2 && n <= 5) return "Not Weird";
+			if (n >= 6 && n <= 20) return "Weird";
+			if (n > 20) return "Not Weird";
+			return "";
+		}
 
-			// Print the sum of both integer variables on a new line.
-			Console.WriteLine("The total meal cost is " + totalCost.ToString("0") + " dollars.");
+		/// <summary>
+		/// Odd integer logic
+		/// </summary>
+		/// <param name="n">N.</param>
+		public static string Odd(int n)
+		{
+			return "Weird";
 		}
 	}
 }
