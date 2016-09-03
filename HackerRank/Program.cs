@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace HackerRank
 {
@@ -9,6 +9,11 @@ namespace HackerRank
 			string output;
 
 			// 30 DAYS OF CODE
+			// Day02.Run();
+			//Day03.Run();
+			// Day02.Run();
+			//Day03.Run();
+ 			// output = Day04.Run();
 			// Day01.Run();
 			//Day02.Run();
 			//output = Day03.Run();
